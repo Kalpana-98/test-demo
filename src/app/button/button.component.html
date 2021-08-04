@@ -1,0 +1,8 @@
+<h2>{{ buttonConfig.buttonTitle }}</h2>
+<button type="button"
+  [ngStyle]="buttonConfig.styles"
+  (click)="onTextBtnClick()">
+{{ buttonConfig.text | uppercase }} {{buttonConfig.id}}
+</button>
+<p><b>Updated at:</b>{{ buttonConfig.updatedAt }}</p>
+<p>{{ buttonConfig.ad_txt }}</p>
