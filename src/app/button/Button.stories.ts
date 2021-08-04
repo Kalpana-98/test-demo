@@ -10,6 +10,7 @@ export default {
     // docs: { 
     //   page: null 
     // },
+    // creevey: { captureElement: null }
     backgrounds: {
       values: [
         { name: 'red', value: '#f00' },
