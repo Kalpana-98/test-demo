@@ -45,10 +45,24 @@
         }
       },
       {
-        "status": "success",
+        "status": "failed",
         "images": {
           "chrome": {
-            "actual": "chrome-actual-3.png"
+            "actual": "chrome-actual-5.png",
+            "expect": "chrome-expect-5.png",
+            "diff": "chrome-diff-5.png",
+            "error": "Expected image to match"
+          }
+        }
+      },
+      {
+        "status": "failed",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-6.png",
+            "expect": "chrome-expect-6.png",
+            "diff": "chrome-diff-6.png",
+            "error": "Expected image to match"
           }
         }
       },
@@ -56,11 +70,14 @@
         "status": "success",
         "images": {
           "chrome": {
-            "actual": "chrome-actual-4.png"
+            "actual": "chrome-actual-7.png"
           }
         }
       }
-    ]
+    ],
+    "approved": {
+      "chrome": 3
+    }
   },
   "850150f561a7bb3b53a075fca0f19864445219fb": {
     "id": "850150f561a7bb3b53a075fca0f19864445219fb",
@@ -108,10 +125,13 @@
         }
       },
       {
-        "status": "success",
+        "status": "failed",
         "images": {
           "chrome": {
-            "actual": "chrome-actual-3.png"
+            "actual": "chrome-actual-5.png",
+            "expect": "chrome-expect-5.png",
+            "diff": "chrome-diff-5.png",
+            "error": "Expected image to match"
           }
         }
       },
@@ -119,14 +139,25 @@
         "status": "failed",
         "images": {
           "chrome": {
-            "actual": "chrome-actual-4.png",
-            "expect": "chrome-expect-4.png",
-            "diff": "chrome-diff-4.png",
+            "actual": "chrome-actual-6.png",
+            "expect": "chrome-expect-6.png",
+            "diff": "chrome-diff-6.png",
             "error": "Expected image to match"
           }
         }
+      },
+      {
+        "status": "success",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-7.png"
+          }
+        }
       }
-    ]
+    ],
+    "approved": {
+      "chrome": 3
+    }
   },
   "9254b3edd6083b9efc3cbaa787dba4baaf4a96df": {
     "id": "9254b3edd6083b9efc3cbaa787dba4baaf4a96df",
@@ -174,10 +205,24 @@
         }
       },
       {
-        "status": "success",
+        "status": "failed",
         "images": {
           "chrome": {
-            "actual": "chrome-actual-3.png"
+            "actual": "chrome-actual-5.png",
+            "expect": "chrome-expect-5.png",
+            "diff": "chrome-diff-5.png",
+            "error": "Expected image to match"
+          }
+        }
+      },
+      {
+        "status": "failed",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-6.png",
+            "expect": "chrome-expect-6.png",
+            "diff": "chrome-diff-6.png",
+            "error": "Expected image to match"
           }
         }
       },
@@ -185,10 +230,13 @@
         "status": "success",
         "images": {
           "chrome": {
-            "actual": "chrome-actual-4.png"
+            "actual": "chrome-actual-7.png"
           }
         }
       }
-    ]
+    ],
+    "approved": {
+      "chrome": 3
+    }
   }
 }
