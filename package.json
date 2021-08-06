@@ -57,7 +57,7 @@
       "<rootDir>/src/"
     ],
     "setupFilesAfterEnv": [
-      "<rootDir>/src/setupJest.ts"
+      "<rootDir>/setup-jest.ts"
     ],
     "collectCoverage": true,
     "coverageReporters": [
@@ -65,7 +65,8 @@
     ],
     "coverageDirectory": "coverage/my-app",
     "transform": {
-      "^.+/.(ts|js|html)$": "ts-jest"
+      "^.+/.(ts|js|html)$": "ts-jest",
+      "^.+/.stories/.[jt]sx?$": "@storybook/addon-storyshots/injectFileName"
     }
   }
 }

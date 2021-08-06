@@ -70,7 +70,39 @@
         "status": "success",
         "images": {
           "chrome": {
-            "actual": "chrome-actual-7.png"
+            "actual": "chrome-actual-13.png"
+          }
+        }
+      },
+      {
+        "status": "success",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-14.png"
+          }
+        }
+      },
+      {
+        "status": "success",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-15.png"
+          }
+        }
+      },
+      {
+        "status": "success",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-16.png"
+          }
+        }
+      },
+      {
+        "status": "success",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-17.png"
           }
         }
       }
@@ -150,7 +182,31 @@
         "status": "success",
         "images": {
           "chrome": {
-            "actual": "chrome-actual-7.png"
+            "actual": "chrome-actual-11.png"
+          }
+        }
+      },
+      {
+        "status": "success",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-12.png"
+          }
+        }
+      },
+      {
+        "status": "success",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-13.png"
+          }
+        }
+      },
+      {
+        "status": "success",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-14.png"
           }
         }
       }
@@ -230,7 +286,34 @@
         "status": "success",
         "images": {
           "chrome": {
-            "actual": "chrome-actual-7.png"
+            "actual": "chrome-actual-14.png"
+          }
+        }
+      },
+      {
+        "status": "success",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-15.png"
+          }
+        }
+      },
+      {
+        "status": "success",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-16.png"
+          }
+        }
+      },
+      {
+        "status": "failed",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-17.png",
+            "expect": "chrome-expect-17.png",
+            "diff": "chrome-diff-17.png",
+            "error": "Expected image to match"
           }
         }
       }
