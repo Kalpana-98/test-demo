@@ -5,7 +5,8 @@ module.exports = {
   "addons": [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "creevey"
+    "creevey",
+    "@storybook/addon-storyshots"
   ],
   "core": {
     "builder": "webpack5"
