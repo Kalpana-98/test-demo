@@ -105,6 +105,25 @@
             "actual": "chrome-actual-17.png"
           }
         }
+      },
+      {
+        "status": "failed",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-18.png",
+            "expect": "chrome-expect-18.png",
+            "diff": "chrome-diff-18.png",
+            "error": "Expected image to match"
+          }
+        }
+      },
+      {
+        "status": "success",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-19.png"
+          }
+        }
       }
     ],
     "approved": {
@@ -207,6 +226,22 @@
         "images": {
           "chrome": {
             "actual": "chrome-actual-14.png"
+          }
+        }
+      },
+      {
+        "status": "success",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-15.png"
+          }
+        }
+      },
+      {
+        "status": "success",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-16.png"
           }
         }
       }
@@ -314,6 +349,22 @@
             "expect": "chrome-expect-17.png",
             "diff": "chrome-diff-17.png",
             "error": "Expected image to match"
+          }
+        }
+      },
+      {
+        "status": "success",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-18.png"
+          }
+        }
+      },
+      {
+        "status": "success",
+        "images": {
+          "chrome": {
+            "actual": "chrome-actual-19.png"
           }
         }
       }

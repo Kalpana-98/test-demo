@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Primary 1`] = `
+<storybook-wrapper>
+  <div
+    style="margin: 3em"
+  >
+    <app-button>
+      <h2>
+        Primary Button
+      </h2>
+      <button
+        style="position: relative; width: 150px; height: 60px; background-color: rgb(0, 0, 255); color: rgb(255, 255, 255); font-family: sans-serif; font-size: 20px; border-radius: 10px; margin-top: 10px;"
+        type="button"
+      >
+  CLICK 1
+      </button>
+      <p>
+        <b>
+          Updated at: 
+        </b>
+        Fri Jan 01 2021 09:00:00 GMT+0100 (Central European Standard Time)
+      </p>
+      <p>
+      </p>
+    </app-button>
+  </div>
+</storybook-wrapper>
+`;
+
+exports[`Storyshots Button Secondary 1`] = `
+<storybook-wrapper>
+  <div
+    style="margin: 3em"
+  >
+    <app-button>
+      <h2>
+        Secondary Button
+      </h2>
+      <button
+        style="position: relative; width: 150px; height: 60px; background-color: rgb(0, 0, 255); color: rgb(255, 255, 255); font-family: sans-serif; font-size: 20px; border-radius: 10px; margin-top: 10px;"
+        type="button"
+      >
+  CLICK 2
+      </button>
+      <p>
+        <b>
+          Updated at: 
+        </b>
+        Fri Jan 01 2021 09:00:00 GMT+0100 (Central European Standard Time)
+      </p>
+      <p>
+        This button has additional text.
+      </p>
+    </app-button>
+  </div>
+</storybook-wrapper>
+`;
+
+exports[`Storyshots Button Tertiary 1`] = `
+<storybook-wrapper>
+  <div
+    style="margin: 3em"
+  >
+    <app-button>
+      <h2>
+        Tertiary Button
+      </h2>
+      <button
+        style="position: relative; width: 150px; height: 60px; background-color: rgb(0, 0, 255); color: rgb(255, 255, 255); font-family: sans-serif; font-size: 20px; border-radius: 10px; margin-top: 10px;"
+        type="button"
+      >
+  CLICK 3
+      </button>
+      <p>
+        <b>
+          Updated at: 
+        </b>
+        Thu Jun 01 2000 05:01:00 GMT+0200 (Central European Summer Time)
+      </p>
+      <p>
+      </p>
+    </app-button>
+  </div>
+</storybook-wrapper>
+`;
